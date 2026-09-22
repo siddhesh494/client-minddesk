@@ -1,0 +1,65 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color: #221e1b;
+  background: #f7f5f2;
+  font-family: "DM Sans", ui-sans-serif, system-ui, sans-serif;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background:
+    radial-gradient(circle at top left, rgba(47, 111, 100, 0.05), transparent 28%),
+    #f7f5f2;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+.tiptap {
+  min-height: 420px;
+  outline: none;
+}
+
+.tiptap p {
+  margin: 0 0 0.85rem;
+}
+
+.tiptap h1,
+.tiptap h2,
+.tiptap h3 {
+  font-family: "Source Serif 4", ui-serif, Georgia, serif;
+  font-weight: 600;
+  line-height: 1.25;
+  margin: 1.4rem 0 0.7rem;
+}
+
+.tiptap h1 {
+  font-size: 1.8rem;
+}
+
+.tiptap h2 {
+  font-size: 1.4rem;
+}
+
+.tiptap ul,
+.tiptap ol {
+  padding-left: 1.4rem;
+  margin-bottom: 0.9rem;
+}
+
+.tiptap blockquote {
+  border-left: 3px solid #d8cfc4;
+  padding-left: 0.9rem;
+  color: #4a4038;
+  font-style: italic;
+}
+
+.tiptap a {
+  color: #24574e;
+  text-decoration: underline;
+}
